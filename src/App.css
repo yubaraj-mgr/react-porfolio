@@ -1,0 +1,514 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(245, 245, 250);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+}
+
+.first-page {
+  background-image: url(./images/New\ Project.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+  position: relative;
+}
+
+nav {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 7rem;
+  border-radius: 25px;
+}
+
+.intro > h1 {
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
+}
+
+.intro > p {
+  font-size: 1rem;
+  word-spacing: 0.1rem;
+  position: relative;
+  top: -2rem;
+  margin-left: 1rem;
+}
+
+.talk {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  bottom: 1.5rem;
+  border: 3px solid white;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 1.2rem;
+}
+
+.skills {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin-top: 5rem;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  gap: 5rem;
+}
+
+.skill-list i {
+  position: relative;
+  left: -6.8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  width: 60%;
+  margin: auto;
+  color: black;
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects > h1 {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+}
+
+.project {
+  width: 100%;
+  background-color: white;
+  display: grid;
+  row-gap: 6rem;
+  background-color: rgb(245, 245, 250);
+  margin-top: 3rem;
+}
+
+.project1 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project1 > img {
+  height: 60vh;
+  width: 50%;
+}
+
+.project2 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project2 > img {
+  height: 60vh;
+  width: 50%;
+}
+
+.project3 {
+  display: flex;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.project3 > img {
+  height: 60vh;
+  width: 50%;
+}
+
+.first-third-image {
+  border-bottom-left-radius: 3%;
+  border-top-left-radius: 3%;
+}
+
+.middle-image {
+  border-bottom-right-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.project-info {
+  background-color: white;
+  height: 60vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3%;
+}
+
+.project-info > p {
+  margin: 2rem 3rem;
+}
+
+.git-liveCode {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.about-me {
+  width: 60%;
+  margin: auto;
+  color: black;
+  margin-top: 16rem;
+  background: linear-gradient(
+    180deg,
+    rgb(145, 15, 168, 0.8) 28%,
+    rgba(46, 137, 202, 1) 66%
+  );
+  height: 68vh;
+  position: relative;
+  bottom: 3rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5%;
+  box-shadow: -3rem 3rem 0.6rem -1rem rgba(0, 0, 0, 0.6);
+}
+
+.about-me > img {
+  height: 20rem;
+  width: 30%;
+  border-radius: 50%;
+  background-color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  border: 3px solid black;
+}
+
+.my-info {
+  width: 55%;
+}
+
+footer {
+  margin-top: 16rem;
+  background-image: url(./images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > h1 {
+  font-size: 3rem;
+}
+
+.social-media {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > button {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  bottom: 1.5rem;
+  border: 0.2rem solid white;
+  height: 2.8rem;
+  width: 8rem;
+  border-radius: 1.2rem;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .first-page {
+    height: 70vh;
+  }
+
+  .intro {
+    transform: scale(0.6);
+    width: 100%;
+  }
+
+  .skills {
+    margin-top: -1rem;
+    width: 80%;
+  }
+
+  .skill-list {
+    margin-right: 3rem;
+  }
+
+  .projects {
+    margin-top: 6rem;
+  }
+
+  .project {
+    margin-top: -30rem;
+    transform: scaleY(0.5);
+  }
+
+  .project-info > h1 {
+    font-size: 1.5rem;
+  }
+
+  .project-info > p {
+    font-size: 0.9rem;
+  }
+
+  .git-liveCode {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+  }
+
+  .about-me {
+    margin-top: -17rem;
+    height: 20rem;
+  }
+
+  .about-me > img {
+    height: 10rem;
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  .my-info > p {
+    font-size: 0.6rem;
+  }
+
+  footer {
+    margin-top: 5rem;
+    height: 50vh;
+  }
+
+  .social-media {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .first-page {
+    height: 73vh;
+  }
+
+  .intro {
+    position: relative;
+    top: -1rem;
+    height: 200px;
+  }
+
+  .intro h1 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    margin-left: 16px;
+  }
+
+  .talk {
+    position: relative;
+    top: -2.1rem;
+    height: 50px;
+  }
+
+  .skills {
+    margin-top: 1rem;
+    width: 80%;
+    position: relative;
+  }
+
+  .skill-list {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem 0rem;
+  }
+
+  .skill-list i {
+    position: relative;
+    left: -1.49rem;
+    transform: scale(0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects {
+    margin-top: 5rem;
+  }
+
+  .projects > h1 {
+    font-size: 1.7rem;
+  }
+
+  .project {
+    margin-top: -50rem;
+    transform: scaleY(0.5);
+  }
+
+  .flex-all-project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project img {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+  }
+
+  .project .project-info {
+    width: 100%;
+  }
+  .project-info > h1 {
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
+  }
+
+  .project-info > p {
+    font-size: 0.9rem;
+  }
+
+  .git-liveCode {
+    display: flex;
+    flex-direction: row;
+    gap: 0 0.5rem;
+    width: 15%;
+    justify-content: space-around;
+  }
+
+  .about-me {
+    margin-top: -38rem;
+    height: 13.5rem;
+    width: 70%;
+  }
+
+  .about-me > img {
+    margin-top: 4rem;
+    height: 7rem;
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  .my-info > p {
+    font-size: 0.5rem;
+  }
+
+  footer {
+    height: 450px;
+  }
+
+  footer > h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  footer button {
+    position: relative;
+    top: -2.5rem;
+  }
+
+  .social-media {
+    position: relative;
+    top: -5rem;
+    width: 100%;
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 375px) {
+  .intro {
+    position: relative;
+    top: -80px;
+  }
+
+  .skills {
+    position: relative;
+    top: -50px;
+  }
+
+  .projects {
+    margin-top: 9rem;
+  }
+
+  .projects > h1 {
+    font-size: 1.5rem;
+    position: relative;
+    top: -150px;
+  }
+
+  .about-me {
+    margin-top: -30rem;
+  }
+
+  footer > h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .project {
+    position: relative;
+    top: -4rem;
+  }
+
+  .about-me {
+    margin-top: -37rem;
+  }
+}
