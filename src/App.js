@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import { AboutMe } from "./components/AboutMe";
-import { FirstPage } from "./components/FirstPage";
-import { Footer } from "./components/Footer";
-import { Projects } from "./components/Projects";
-import { Skill } from "./components/Skill";
 import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { AboutMe } from "./components/AboutMe";
+import { Footer } from "./components/Footer";
+import { FirstPage } from "./components/FirstPage";
 
 const App = () => {
   return (
